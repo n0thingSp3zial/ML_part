@@ -2,6 +2,7 @@ import itertools
 import numpy as np
 import random
 from math import exp, sqrt
+from dtwn import DTW
 from kernel import calculateHelperMatrix, calculateGramMatrix, DTWGaussKernel
 from sklearn import svm
 
